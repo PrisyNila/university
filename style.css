@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+.btn{
+    box-sizing: border-box;
+    margin-top: 40px;
+    
+}
+.btn :hover{
+    background-color: rgb(225, 150, 136);
+    transition: 0.2s;
+}
+.wrd2{
+    margin-left: 20%;
+    text-align: center;
+}
+.box{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    box-sizing: border-box;
+    border: 1px solid #fff;
+    font: size 13px ;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+/* .place1{
+     background: rgba(226, 0, 0, 0.7);
+     height: 100%;
+     width: 100%;
+     position: absolute;
+     top: 0;
+     left: 0;
+} */
+ .hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+    margin-left: 47%;
+ }
+.hero-btn:hover{
+    background: #c64205;
+    color: rgb(0, 0, 0);
+    transition: 0.4s all linear;
+    border-color:  black;
+    box-shadow:10px #000000;
+ }
+ .place1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    transition: opacity 0.4s ease-in-out;
+    background: black;
+    cursor: pointer;
+}
+ @media(max-width:700px){
+    .text-box h1{
+        font-size: 20px;
+    }
+ }
